@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Agraham';
+  src: url('../assets/fonts/Birgine.ttf');
+}
+
+@font-face {
+  font-family: 'Against';
+  src: url('../assets/fonts/against-regular.ttf');
+}
+
+@font-face {
+  font-family: 'Mondapick';
+  src: url('../assets/fonts/MondapickSemiblod-BF6441f789168b4.ttf');
+}
+
+@font-face {
+  font-family: 'Geomatrix';
+  src: url('../assets/fonts/Geomatrix-Light.ttf');
+}
+
+body {
+  margin: 0;
+  color: #fff;
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  background-image: linear-gradient(to bottom, #020917, #101725);
+}

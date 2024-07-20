@@ -1,0 +1,23 @@
+{
+  "name": "eyedea",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build": "rsbuild build",
+    "dev": "rsbuild dev --open",
+    "format": "prettier --write .",
+    "preview": "rsbuild preview"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.19",
+    "gsap": "^3.12.5",
+    "postcss": "^8.4.39",
+    "tailwindcss": "^3.4.6",
+    "vue": "^3.4.19"
+  },
+  "devDependencies": {
+    "@rsbuild/core": "1.0.1-beta.3",
+    "@rsbuild/plugin-vue": "1.0.1-beta.3",
+    "prettier": "^3.3.3"
+  }
+}
